@@ -5,6 +5,7 @@
             :url "https://www.eclipse.org/legal/epl-2.0/"}
   :dependencies [[org.clojure/clojure "1.11.1"]
                  [net.mikera/core.matrix "0.63.0"]
+                 [org.clojure/core.rrb-vector "0.2.0"]
                  [org.clojure/math.combinatorics "0.3.0"]]
   :main ^:skip-aot aoc2024.core
   :target-path "target/%s"
